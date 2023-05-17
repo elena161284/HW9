@@ -50,7 +50,7 @@ public class Main {
             averageValue = averageValue + arr[i];
         }
         averageValue = averageValue / arr.length;
-        System.out.printf("Средняя сумма трат за месяц составила " + averageValue + " рублей.");
+        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", averageValue);
 
         System.out.println();
     }
