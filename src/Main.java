@@ -48,8 +48,8 @@ public class Main {
         double averageValue = 0;
         for (int i = 0; i < arr.length; i++) {
             averageValue = averageValue + arr[i];
-            averageValue = averageValue / arr.length;
         }
+        averageValue = averageValue / arr.length;
         System.out.printf("Средняя сумма трат за месяц составила " + averageValue + " рублей.");
 
         System.out.println();
